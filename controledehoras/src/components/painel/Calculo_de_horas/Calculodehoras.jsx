@@ -40,7 +40,7 @@ const CalculoDeHoras = () => {
     saidaExtraDate.setMinutes(saidaExtraDate.getMinutes() + 120);
 
     const formatTime = (date) =>
-      date.getHours().toString().padStart(2, "0") + ":" +
+      date.getHours().toString().padStart(2, "00") + ":" +
       date.getMinutes().toString().padStart(2, "0");
 
     setSaidaNormal(formatTime(saidaNormalDate));
