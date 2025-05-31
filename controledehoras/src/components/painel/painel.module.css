@@ -1,0 +1,90 @@
+/* Estilização global da página */
+body {
+  font-family: "Poppins", sans-serif; /* Define a fonte da página */
+  background: linear-gradient(135deg, #280ca5, #21252c); /* Aplica um gradiente de fundo */
+  color: #333; /* Define a cor padrão do texto */
+  margin: 0; /* Remove margens padrão */
+  padding: 0; /* Remove preenchimento padrão */
+  min-height: 100vh; /* Garante que o corpo ocupe toda a altura da tela */
+  display: flex; /* Usa flexbox para alinhar os elementos */
+  justify-content: center; /* Centraliza os elementos horizontalmente */
+  align-items: center; /* Centraliza os elementos verticalmente */
+}
+
+/* Container principal */
+.painel {
+  background: #fff; /* Define um fundo branco para o painel */
+  padding: 50px; /* Adiciona preenchimento interno para espaçamento */
+  border-radius: 12px; /* Arredonda as bordas para um visual suave */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra leve para profundidade */
+  text-align: center; /* Centraliza o conteúdo dentro do painel */
+  width: 350px; /* Define uma largura fixa para o painel */
+}
+
+/* Container do título */
+.titulo-container {
+  margin-bottom: 30px; /* Adiciona espaçamento abaixo do título */
+}
+
+/* Títulos */
+h1 {
+  color: #222; /* Define uma cor escura para o título */
+  margin-bottom: 8px; /* Adiciona espaço abaixo do título */
+  font-size: 24px; /* Define um tamanho maior para destacar */
+  font-weight: bold; /* Aplica negrito para maior impacto */
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #666; /* Define uma cor mais suave para o subtítulo */
+  font-size: 18px; /* Mantém um tamanho legível */
+  font-weight: normal; /* Remove negrito para diferenciar do título */
+}
+
+/* Estilização da lista */
+ul {
+  list-style: none; /* Remove os marcadores padrão da lista */
+  padding: 0; /* Remove preenchimento interno */
+  margin: 0; /* Remove margens padrão */
+}
+
+li {
+  margin-bottom: 14px; /* Adiciona espaçamento entre os itens */
+  font-size: 16px; /* Mantém o tamanho legível */
+}
+
+/* Último item da lista sem espaçamento extra */
+li:last-child {
+  margin-bottom: 0; /* Remove margem inferior do último item */
+}
+
+/* Links estilizados como botões */
+a {
+  display: block; /* Faz o link ocupar toda a largura do contêiner */
+  text-decoration: none; /* Remove o sublinhado padrão */
+  color: white; /* Define o texto como branco */
+  background: linear-gradient(
+    135deg,
+    #007bff,
+    #0056b3
+  ); /* Aplica um gradiente azul no fundo */
+  padding: 14px; /* Adiciona preenchimento interno */
+  border-radius: 8px; /* Arredonda as bordas do botão */
+  transition: all 0.3s ease-in-out; /* Cria efeito de transição suave */
+  text-align: center; /* Centraliza o texto dentro do botão */
+  font-size: 16px; /* Define um tamanho de fonte adequado */
+  font-weight: bold; /* Deixa o texto em negrito para melhor destaque */
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2); /* Adiciona um leve efeito de sombra */
+}
+
+/* Efeito hover para o botão */
+a:hover {
+  background: linear-gradient(
+    135deg,
+    #0056b3,
+    #004080
+  ); /* Muda a cor do botão ao passar o mouse */
+  transform: scale(
+    1.05
+  ); /* Aumenta ligeiramente o botão para um efeito visual interativo */
+}

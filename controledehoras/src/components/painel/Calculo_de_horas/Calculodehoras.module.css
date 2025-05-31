@@ -1,0 +1,142 @@
+.container {
+  max-width: 600px; /* Define a largura máxima do componente */
+  height: 700px;
+  width: 400px;
+  margin: 40px auto; /* Adiciona margem superior/inferior e centraliza o conteúdo na tela */
+  padding: 40px; /* Adiciona espaço interno ao redor dos elementos dentro do container */
+  background-color: #f5f5f5; /* Define uma cor de fundo clara */
+  border-radius: 10px; /* Arredonda as bordas do container */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra ao redor do componente */
+  text-align: center; /* Centraliza o texto dentro do container */
+}
+/* Estilização global */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #333;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Painel principal */
+.painel {
+  background: #fff;
+  padding: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 200px;
+}
+
+/* Títulos */
+h1 {
+  color: #222;
+  font-size: 24px;
+}
+
+h2 {
+  margin-top: 0px; /* Remove espaço acima */
+  margin-bottom: 10px; /* Mantém espaçamento abaixo */
+  color: #666;
+  font-size: 18px;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Botão */
+.botao {
+  width: 100%;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsividade - Ajusta layout para telas menores */
+@media screen and (max-width: 600px) {
+  .painel {
+    width: 90%; /* Faz o painel ocupar quase toda a tela */
+    padding: 30px; /* Reduz o espaçamento interno */
+  }
+
+  h1 {
+    font-size: 22px; /* Ajusta o tamanho do título */
+  }
+
+  h2 {
+    font-size: 16px; /* Ajusta o tamanho do subtítulo */
+  }
+
+  input {
+    font-size: 14px; /* Reduz um pouco o tamanho do input */
+  }
+
+  .botao {
+    font-size: 14px; /* Ajusta o tamanho do botão */
+    padding: 12px; /* Reduz o tamanho para telas pequenas */
+  }
+}
+
+h2 {
+  color: #333; /* Define a cor do texto como um cinza escuro */
+  font-size: 24px; /* Define o tamanho da fonte */
+  margin-bottom: 20px; /* Adiciona um espaço abaixo do título */
+}
+
+label {
+  display: block; /* Faz com que cada label ocupe toda a largura do container */
+  font-weight: bold; /* Deixa o texto em negrito */
+  margin-top: 10px; /* Adiciona espaço acima do rótulo */
+}
+
+input {
+  width: 90%; /* Faz com que o input ocupe toda a largura disponível */
+  padding: 12px; /* Adiciona preenchimento interno para melhorar a experiência do usuário */
+  margin: 20px 0; /* Adiciona espaçamento entre os inputs */
+  border: 1px solid #ccc; /* Define uma borda cinza clara */
+  border-radius: 5px; /* Arredonda as bordas do input */
+  font-size: 20px; /* Define um tamanho maior para o texto do input */
+}
+
+input {
+  display: block; /* Faz o input ocupar a largura toda */
+  margin: 10px auto; /* Centraliza horizontalmente */
+  text-align: center; /* Centraliza o texto dentro do input */
+}
+
+.botao {
+  width: 100%; /* Faz com que o botão ocupe toda a largura disponível */
+  background-color: #007bff; /* Define um azul vibrante como cor de fundo */
+  color: white; /* Define a cor do texto como branca */
+  padding: 12px; /* Adiciona preenchimento interno */
+  font-size: 18px; /* Aumenta o tamanho do texto */
+  border: none; /* Remove a borda padrão */
+  border-radius: 5px; /* Arredonda as bordas do botão */
+  cursor: pointer; /* Altera o cursor para indicar que é clicável */
+  margin-top: 20px; /* Adiciona espaço acima do botão */
+}
+
+.botao:hover {
+  background-color: #0056b3; /* Altera a cor ao passar o mouse para um tom mais escuro */
+}
+
+.resultado {
+  margin-top: 25px; /* Adiciona espaço antes do resultado */
+  font-size: 18px; /* Aumenta o tamanho da fonte */
+  font-weight: bold; /* Deixa o texto em negrito */
+}
