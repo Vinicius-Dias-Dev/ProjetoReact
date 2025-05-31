@@ -56,7 +56,7 @@ const CalculoDeHoras = () => {
 
       <label>
         <input type="checkbox" checked={incluirCafe} onChange={(e) => setIncluirCafe(e.target.checked)} />
-        Incluir pausa para café?
+        Incluir pausa para café??
       </label>
 
       {incluirCafe && (
